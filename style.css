@@ -1,0 +1,61 @@
+div {
+    background-color: rgb(0, 17, 255);
+    width: 400px;
+    margin: 0 50px;
+    display: inline-block;
+    border-radius: 40px;
+    box-shadow: 2px 2px 40px black;
+    /* уголки картинки обрезаются,когда выходят за карточку */
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    /* это шрифт */
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+body {
+    background-image: url("space.jpg");
+    text-align: center;
+}
+
+img {
+    /* для картины */
+    width: 100%;
+    display: block;
+}
+
+a {
+    color: #222;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #222;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+a:hover {
+    background-color: rgb(195, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    margin: 0;
+}
